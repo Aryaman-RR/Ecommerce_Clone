@@ -1,0 +1,38 @@
+.Checkout {
+    display: flex;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    justify-content: center;
+    height: max-content;
+}
+
+.checkout_userMail {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.checkout_title {
+    margin-left: 5%;
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    flex-grow: 10;
+}
+
+.checkout_left {
+    flex-grow: 8;
+    border-right: 1px solid lightgray;
+}
+
+.checkout_right {
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.checkoutRight_title {
+    padding-bottom: 20px;
+}
